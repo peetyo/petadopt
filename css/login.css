@@ -1,0 +1,30 @@
+form{
+  width: 40%;
+  padding: 25px;
+  padding-bottom:15px;
+  background-color: #f4f5f8;
+  border-radius: 2px;
+}
+
+form input{
+  border: solid 1px lightgray;
+  border-radius: 2px;
+}
+
+h2{
+  display: grid;
+  justify-items: center;
+}
+
+div.boxInput{
+  position: relative;
+}
+
+div.invalid{
+  position: absolute;
+  top: 22px;
+  right: 10px;
+  color: red;
+  font-size: 12px;
+  display: none;
+}

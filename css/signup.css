@@ -1,0 +1,62 @@
+form{
+  width: 40%;
+  padding: 25px;
+  padding-bottom: 15px;
+  background-color: #f4f5f8;
+  border-radius: 2px;
+}
+
+h2{
+  display: grid;
+  justify-items: center;
+}
+
+form input{
+  border: solid 1px lightgray;
+  border-radius: 2px;
+}
+
+#inlineInput input , #nameInput input{
+  width:unset;
+  display: inline-block;
+}
+
+#addressInput :nth-child(1) {
+  width: 45%;
+}
+
+#addressInput :nth-child(2) {
+  width: 35%;
+}
+
+#nameInput :nth-child(1) {
+  width:49%;
+}
+
+#nameInput :nth-child(2) {
+  width: 49%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none; 
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+p#pError{
+  color: red;
+  opacity: 0;
+}
+
+#btnDeactivateUser{
+  background-color: gray;
+}
+
+#btnDeleteUser{
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: .7;
+  font-size: 12px;
+}

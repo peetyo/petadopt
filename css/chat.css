@@ -1,0 +1,101 @@
+body{
+  background:white !important;
+}
+div#chatContainer{
+  display: grid;
+  grid-template-columns: 200px 1fr; 
+  grid-template-rows: 90vh; 
+}
+div#userList{
+  border: 1px solid lightgray;
+  border-right: none;
+  background-color:#54B77C;
+}
+div#userList h3{
+  text-align: center;
+  padding:10px;
+  background-color: #edf0f5;
+  display: block;
+  border-bottom: solid lightgray 1px;
+}
+div.user{
+  padding: 10px 10px;
+  border-bottom: solid lightgray 1px;
+  cursor: pointer;
+  transition: .3s;
+  background-color:#edf0f5;
+}
+div.user:hover{
+  background-color:#cdd0d4;
+}
+div#messageDisplay{
+  border: 1px solid lightgray;
+  border-right: none;
+  display: grid;
+}
+
+div#messageDisplay h3{
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+div#messageDisplay .chatBox{
+  display: none;
+  grid-template-rows: 42px 1fr 50px; 
+  max-height: 94vh;
+  
+}
+
+div#messageDisplay div#frmSendMessage{
+  display: grid;
+  grid-template-columns: 1fr 70px; 
+}
+
+div#messageDisplay h4{
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.conversation{
+  overflow-y: scroll;
+  max-height: 75vh;
+  border-top: solid lightgray 1px;
+}
+.conversation h4{
+  margin-top: 25px;
+}
+.message{
+  max-width:50%;
+  margin: 3px;
+  padding:4px 2px;
+  border-radius: 15px;
+}
+
+.currentUserMessage{
+  float: right;
+  text-align: left;
+  background-color: rgb(253, 163, 136); 
+  clear: both;
+}
+.currentUserMessage p, .otherUserMessage p{
+  max-width: 300px;
+  padding: 0 10px;
+}
+
+.otherUserMessage{
+  float:left;
+  text-align: left;
+  clear: both;
+  background-color: #ededed;
+}
+
+.btnSendMessage{
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 2px;
+  background-color: #DE6B48;
+  cursor: pointer;
+}

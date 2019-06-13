@@ -1,0 +1,67 @@
+.listing{
+  width:100%;
+  max-width: 350px;
+  margin: 10px;
+  background-color: #f4f5f8;
+  border-radius: 2px;
+  padding: 15px 25px;
+}
+.listing img{
+  width:100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+
+input{
+  margin-top:10px;
+}
+
+input.listingTitle{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+textarea.listingDescription{
+  width:100%;
+  resize: none;
+  height: 130px;  
+  font-size:16px;
+  font-family: 'Varela Round', sans-serif;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+button#btnCreateListing{
+  display: inline-block;
+  margin-top:10px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 2px;
+  background-color: #DE6B48;
+  cursor: pointer;
+}
+
+button#btnInsertListing{
+  display: inline-block;
+  margin-top:10px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 2px;
+  background-color: #DE6B48;
+  cursor: pointer;
+}
+
+input.inpFile{
+  margin-top:15px;
+  height: 40px;
+}
+h2{
+  text-align: center;
+}
+p#pError{
+  color: red;
+  opacity: 0;
+}
